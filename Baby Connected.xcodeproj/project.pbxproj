@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9793CE7C1AD42D1A002E7ED5 /* ActionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9793CE7B1AD42D1A002E7ED5 /* ActionListViewController.swift */; };
 		97C843C61ACBDC490095E064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C843C51ACBDC490095E064 /* AppDelegate.swift */; };
 		97C843C91ACBDC490095E064 /* Baby_Connected.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97C843C71ACBDC490095E064 /* Baby_Connected.xcdatamodeld */; };
-		97C843CB1ACBDC490095E064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C843CA1ACBDC490095E064 /* ViewController.swift */; };
 		97C843CE1ACBDC490095E064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C843CC1ACBDC490095E064 /* Main.storyboard */; };
 		97C843D01ACBDC490095E064 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C843CF1ACBDC490095E064 /* Images.xcassets */; };
 		97C843D31ACBDC490095E064 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97C843D11ACBDC490095E064 /* LaunchScreen.xib */; };
 		97C843DF1ACBDC490095E064 /* Baby_ConnectedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C843DE1ACBDC490095E064 /* Baby_ConnectedTests.swift */; };
+		97C843E91ACBDD660095E064 /* BabyActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C843E81ACBDD660095E064 /* BabyActionViewController.swift */; };
+		97C843EF1ACBF10B0095E064 /* AddActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C843EE1ACBF10B0095E064 /* AddActionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9793CE7B1AD42D1A002E7ED5 /* ActionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionListViewController.swift; sourceTree = "<group>"; };
 		97C843C01ACBDC490095E064 /* Baby Connected.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Baby Connected.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C843C41ACBDC490095E064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97C843C51ACBDC490095E064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97C843C81ACBDC490095E064 /* Baby_Connected.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Baby_Connected.xcdatamodel; sourceTree = "<group>"; };
-		97C843CA1ACBDC490095E064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97C843CD1ACBDC490095E064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97C843CF1ACBDC490095E064 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		97C843D21ACBDC490095E064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		97C843D81ACBDC490095E064 /* Baby ConnectedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Baby ConnectedTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		97C843DD1ACBDC490095E064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97C843DE1ACBDC490095E064 /* Baby_ConnectedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby_ConnectedTests.swift; sourceTree = "<group>"; };
+		97C843E81ACBDD660095E064 /* BabyActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BabyActionViewController.swift; sourceTree = "<group>"; };
+		97C843EE1ACBF10B0095E064 /* AddActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				97C843C51ACBDC490095E064 /* AppDelegate.swift */,
-				97C843CA1ACBDC490095E064 /* ViewController.swift */,
+				97C843E81ACBDD660095E064 /* BabyActionViewController.swift */,
+				97C843EE1ACBF10B0095E064 /* AddActionViewController.swift */,
+				9793CE7B1AD42D1A002E7ED5 /* ActionListViewController.swift */,
 				97C843CC1ACBDC490095E064 /* Main.storyboard */,
 				97C843CF1ACBDC490095E064 /* Images.xcassets */,
 				97C843D11ACBDC490095E064 /* LaunchScreen.xib */,
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97C843CB1ACBDC490095E064 /* ViewController.swift in Sources */,
 				97C843C61ACBDC490095E064 /* AppDelegate.swift in Sources */,
 				97C843C91ACBDC490095E064 /* Baby_Connected.xcdatamodeld in Sources */,
+				9793CE7C1AD42D1A002E7ED5 /* ActionListViewController.swift in Sources */,
+				97C843EF1ACBF10B0095E064 /* AddActionViewController.swift in Sources */,
+				97C843E91ACBDD660095E064 /* BabyActionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				97C843E41ACBDC490095E064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		97C843E51ACBDC490095E064 /* Build configuration list for PBXNativeTarget "Baby ConnectedTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				97C843E71ACBDC490095E064 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
